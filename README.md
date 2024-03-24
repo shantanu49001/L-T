@@ -2,7 +2,6 @@
 
 <center>
   ![L&T CreaTech Logo](https://github.com/shantanu49001/L-T/blob/main/logo.png)
-
 </center>
 
 ## Team Members:
