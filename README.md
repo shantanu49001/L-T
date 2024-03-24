@@ -101,3 +101,42 @@ We can visualize the solution obtained from the ACO algorithm using various plot
 This is the result of sample dataset c101 of the Vehicle routing problem with Time Windows 
 
 [Hindawi](https://www.hindawi.com/journals/ddns/2018/1295485/) - For detailed explanation of algorithm refer here! :))
+
+# Delivery Encryption and Geotagging with JSON Web Tokens
+
+## Overview
+
+Our web application ensures secure and traceable deliveries by leveraging Delivery Encryption and Geotagging using JSON Web Tokens (JWTs). This document outlines the process and functionality of our system.
+
+## Delivery Encryption and Geotagging
+
+Our web application utilizes geotagging and JSON Web Tokens (JWTs) to ensure secure and traceable deliveries.
+
+### Generation and Management of Tokens
+
+Upon order placement, the web application collects parameters such as seller name, customer name, current geo-location, and previous geo-location for each item to generate a token.
+
+- Unique Signature Generation: These parameters are utilized to create a unique signature for each commodity using JSON Web Tokens (JWTs).
+- Verification and Updating at Distribution Centers:
+  - At every distribution center, the previous JWT associated with the commodity is verified based on customer and seller details and location data at the center available via its token.
+  - Once verified, the JWT is updated with the current geo-location information and signed.
+  - The updated token, along with the new location data, is pushed to the user model database for record-keeping.
+- Final Destination Verification and Expiry:
+  - Upon reaching the final destination, the last JWT is verified against the original order details.
+  - If all details match, the token is marked as inactive and expires using the built-in features of JWTs.
+  - Expired tokens are saved in the customer database model as a reference for order history and future analytical data.
+
+## Implementation Details
+
+### 1. Generation of Consignment Token
+
+- Header: `{supp_id, cust_id}`
+- Secret: `{prev_loc, curr_loc}`
+
+### 2. Token Verification and Update at Distribution Centers
+
+- At each center, the token details are verified, and the token is updated with the current center's information.
+
+## Usage
+
+Instructions for using the system/API.
