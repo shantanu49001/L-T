@@ -1,0 +1,7 @@
+parent {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    width: max-content;
+    height: max-content;
+}

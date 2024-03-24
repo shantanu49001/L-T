@@ -1,0 +1,75 @@
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    /* Change font family */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    /* Change font color */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    /* Change font color */
+}
+
+.profile-options {
+    margin-bottom: 20px;
+}
+
+.profile-options label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    /* Change font color */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+    /* Change font family */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.rounded-image {
+    display: block;
+    margin: 0 auto 20px;
+    /* Add margin to center the image and create space below */
+    width: 150px;
+    /* Set the width of the image */
+    height: 150px;
+    /* Set the height of the image */
+    border-radius: 50%;
+    /* Make the image rounded */
+}
