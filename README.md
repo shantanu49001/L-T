@@ -45,9 +45,6 @@ Define variables representing truck arrival/departure times and product movement
 #### Defining Objective Function:
 Define an objective function to minimize the time between truck arrival and departure.
 
-#### Solving the Problem:
-The optimization problem is solved using the solve() method.
-
 #### Checking the Solution:
 If an optimal solution is found, the arrival times of each truck are printed; otherwise, it indicates no feasible solution.
 
@@ -88,12 +85,8 @@ The ACO algorithm iteratively finds optimal routes for material delivery conside
 - The output of an efficient solution to this problem should be a set of routes for each vehicle, where each route starts and ends at the depot (customer 0), and visits each customer exactly once within their respective time windows while respecting vehicle capacities.
 - The goal is to minimize the total distance traveled by the vehicles while ensuring timely delivery and efficient resource utilization.
 - An efficient solution would optimize the assignment of customers to vehicles and the sequence in which customers are visited to minimize the overall cost, which includes transportation costs, vehicle operating costs, and potential penalties for late deliveries.
-- Using algorithms like Ant Colony Optimization (ACO) can help find near-optimal solutions to such combinatorial optimization problems by iteratively exploring and exploiting search space, leveraging pheromone trails to guide the search towards promising regions, and incorporating heuristic information to guide decision-making.
-- By applying ACO or similar optimization algorithms to this dataset, we can expect to find routes that minimize the total distance traveled by the vehicles, optimize resource utilization, and ensure timely delivery to customers within their specified time windows.
-
-## Implementation
-
-To solve the VRPTW problem efficiently, we can implement algorithms like Ant Colony Optimization (ACO). ACO is a metaheuristic optimization algorithm inspired by the foraging behavior of ants. It iteratively constructs solution paths by simulating the pheromone-based communication among ants. This allows the algorithm to converge towards optimal or near-optimal solutions.
+- Using algorithm Ant Colony Optimization (ACO) can help find near-optimal solutions to such combinatorial optimization problems by iteratively exploring and exploiting search space, leveraging pheromone trails to guide the search towards promising regions, and incorporating heuristic information to guide decision-making.
+- By applying ACO optimization algorithm to this dataset, we can expect to find routes that minimize the total distance traveled by the vehicles, optimize resource utilization, and ensure timely delivery to customers within their specified time windows.
 
 ### Example Application
 
@@ -104,5 +97,7 @@ We can use the provided dataset as input for the ACO algorithm. The algorithm wi
 We can visualize the solution obtained from the ACO algorithm using various plotting libraries in Python. Below is an example GIF showing the convergence of the ACO algorithm and the final routes obtained for the vehicles.
 
 ![ACO Algorithm Convergence](https://github.com/shantanu49001/L-T/blob/main/c101-example.gif)
+
+This is the result of sample dataset c101 of the Vehicle routing problem with Time Windows 
 
 [Hindawi](https://www.hindawi.com/journals/ddns/2018/1295485/) - For detailed explanation of algorithm refer here! :))
