@@ -117,6 +117,10 @@ TE = 2
 M = 1000000
 lj = 5
 
+<p align="center">
+  <img src="https://github.com/shantanu49001/L-T/blob/main/WAREHOUSE.jpeg" alt="L&T CreaTech Logo">
+</p>
+
 
 
 
