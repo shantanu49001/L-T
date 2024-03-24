@@ -118,6 +118,12 @@ lj = 5
 
 <p align="center">
   <img src="https://github.com/shantanu49001/L-T/blob/main/WAREHOUSE.jpeg" alt="L&T CreaTech Logo">
+  <br/>
+    <img src="https://github.com/shantanu49001/L-T/blob/main/warehouse-1.1.png" alt="L&T CreaTech Logo">
+
+  <br/>
+    <img src="https://github.com/shantanu49001/L-T/blob/main/warehouse-1.2.png" alt="L&T CreaTech Logo">
+
 </p>
 
 
