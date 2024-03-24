@@ -1,0 +1,59 @@
+**************************************************
+[macs]: vehicle num of found path (12) better than best path's (15), found path distance is 2951.287304
+it takes 2.176 second multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (2590.795604) better than best path's (2951.287304)
+it takes 6.269 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: vehicle num of found path (11) better than best path's (12), found path distance is 2590.795604
+it takes 6.761 second multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (2481.375042) better than best path's (2590.795604)
+it takes 12.872 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: vehicle num of found path (10) better than best path's (11), found path distance is 2481.375042
+it takes 13.415 second multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (2288.378199) better than best path's (2481.375042)
+it takes 18.567 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (2077.418761) better than best path's (2288.378199)
+it takes 22.921 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (1597.402414) better than best path's (2077.418761)
+it takes 47.950 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (1384.903669) better than best path's (1597.402414)
+it takes 255.904 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (1361.744103) better than best path's (1384.903669)
+it takes 516.781 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (1328.071661) better than best path's (1361.744103)
+it takes 713.014 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (1301.754834) better than best path's (1328.071661)
+it takes 1014.237 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (1281.624524) better than best path's (1301.754834)
+it takes 1063.777 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+time is up: cannot find a better solution in given time(10 minutes)
+it takes 1663.983 second from multiple_ant_colony_system running
+the best path have found is:
+[0, 57, 76, 70, 80, 77, 79, 81, 71, 73, 78, 0, 13, 16, 15, 14, 12, 1, 98, 96, 94, 0, 20, 26, 25, 27, 29, 22, 21, 23, 17, 19, 28, 0, 41, 40, 46, 48, 44, 38, 35, 37, 36, 39, 34, 0, 5, 3, 7, 8, 18, 30, 24, 52, 32, 33, 31, 0, 90, 89, 92, 93, 100, 99, 97, 95, 2, 0, 54, 55, 53, 59, 58, 56, 60, 45, 47, 49, 0, 67, 66, 62, 74, 72, 61, 64, 68, 42, 43, 50, 51, 0, 75, 87, 86, 83, 84, 82, 91, 88, 85, 0, 65, 63, 10, 11, 9, 6, 4, 69, 0]
+best path distance is 1281.624524, best vehicle_num is 10
+**************************************************

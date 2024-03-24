@@ -1,0 +1,4 @@
+**************************************************
+[macs]: vehicle num of found path (6) better than best path's (8), found path distance is 2774.281565
+it takes 3.627 second multiple_ant_colony_system running
+**************************************************

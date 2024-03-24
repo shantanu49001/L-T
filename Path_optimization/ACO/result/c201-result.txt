@@ -1,0 +1,32 @@
+**************************************************
+[macs]: vehicle num of found path (6) better than best path's (15), found path distance is 1938.062458
+it takes 4.233 second multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: vehicle num of found path (5) better than best path's (6), found path distance is 2071.362661
+it takes 17.552 second multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: vehicle num of found path (4) better than best path's (5), found path distance is 2091.325161
+it takes 44.677 second multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (803.894931) better than best path's (2091.325161)
+it takes 110.324 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: vehicle num of found path (3) better than best path's (4), found path distance is 803.894931
+it takes 111.378 second multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (690.039539) better than best path's (803.894931)
+it takes 284.245 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (661.328726) better than best path's (690.039539)
+it takes 419.646 second from multiple_ant_colony_system running
+**************************************************
+**************************************************
+[macs]: distance of found path (624.393507) better than best path's (661.328726)
+it takes 602.680 second from multiple_ant_colony_system running
+**************************************************
