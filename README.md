@@ -105,4 +105,4 @@ We can visualize the solution obtained from the ACO algorithm using various plot
 
 ![ACO Algorithm Convergence](https://github.com/shantanu49001/L-T/blob/main/c101-example.gif)
 
-[Website Name](https://www.hindawi.com/journals/ddns/2018/1295485/) - For detailed explanation of algorithm refer here! :))
+[Hindawi](https://www.hindawi.com/journals/ddns/2018/1295485/) - For detailed explanation of algorithm refer here! :))
