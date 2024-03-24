@@ -128,11 +128,11 @@ Upon order placement, the web application collects parameters such as seller nam
 
 <p align="center">
   <img src="https://github.com/shantanu49001/L-T/blob/main/jwt.png" alt="L&T CreaTech Logo">
-    <img src="https://github.com/shantanu49001/L-T/blob/main/jwt2.png" alt="L&T CreaTech Logo">
-  <img src="https://github.com/shantanu49001/L-T/blob/main/1.png" alt="L&T CreaTech Logo">
+   
+ 
 
 </p>
-
+ <img src="https://github.com/shantanu49001/L-T/blob/main/jwt2.png" alt="L&T CreaTech Logo">
 ## Implementation Details
 
 ### 1. Generation of Consignment Token
