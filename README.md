@@ -46,20 +46,79 @@ Users receive quality percentage feedback, empowering them to make informed proc
 </p>
 
 
-### 2. Warehouse Transportation Problem:
-This model solves a warehouse transportation problem using optimization techniques.
+### 2. Warehouse Transportation Problem
 
-#### Setting Up the Problem:
-Defined the problem using the Python Pulp library to minimize the time between the arrival of the first inbound truck and the departure of the last outbound truck.
+This repository contains a Python implementation to solve a warehouse transportation problem using optimization techniques. The problem is formulated as a mixed-integer linear programming (MILP) model aiming to minimize the time between the arrival of the first inbound truck and the departure of the last outbound truck, also known as makespan.
 
-#### Defining Variables & Constraints:
-Define variables representing truck arrival/departure times and product movement, adding constraints to ensure adherence to specific rules.
+## Problem Description
 
-#### Defining Objective Function:
-Define an objective function to minimize the time between truck arrival and departure.
+In a warehouse setting, the problem involves scheduling inbound and outbound trucks at dock locations while transferring products efficiently. The goal is to minimize the overall time spent in the transportation process, leading to several advantages such as:
 
-#### Checking the Solution:
-If an optimal solution is found, the arrival times of each truck are printed; otherwise, it indicates no feasible solution.
+- *Storage Elimination*: By adopting a cross-docking strategy, the need for storage and order picking operations is eliminated. Products are transferred directly from inbound trucks to outbound trucks, reducing the storage space required in the warehouse.
+
+- *Handling Cost Efficiency*: Storage and order picking are usually the costliest processes in traditional distribution centers. By implementing cross-docking, companies can reduce inventory maintenance costs and labor expenses associated with handling products multiple times.
+
+## Mathematical Model
+
+The mathematical model is implemented using the Python Pulp library and includes the following components:
+
+- *Variables & Constraints*: Define variables representing truck arrival/departure times and product movement, adding constraints to ensure adherence to specific rules.
+
+- *Objective Function*: Define an objective function to minimize the time between truck arrival and departure.
+
+## Input Parameters
+
+The model takes the following input parameters:
+
+- trucks: List of all trucks involved in transportation, categorized as inbound ('I') or outbound ('O').
+- products: List of all products being transported.
+- docks: List of all dock locations where trucks can load and unload products.
+- storage_locations: List of storage locations at docks where products can be stored temporarily.
+- fvp: Transfer times between trucks and products.
+- PUp: Upper bounds of product quantities.
+- PLp: Lower bounds of product quantities.
+- Qsk: Maximum capacities of storage locations at docks.
+- Wkk_prime: Transfer times between docks.
+- TS: Transfer time between storage locations and outbound trucks.
+- TE: Transfer time between trucks.
+- M: A very large constant used for formulating constraints.
+- lj: Departure time limit for outbound trucks.
+
+## Output
+
+The output indicates the results of solving the optimization problem:
+
+- *Feasible Solution Found*: Indicates whether the optimization solver found a feasible solution.
+- *Arrival Time of Trucks*: Displays the arrival time for each truck in the problem.
+
+## Sample Example
+
+### Sample Input:
+
+```python
+trucks = ['I1', 'I2', 'O1', 'O2']
+products = ['P1', 'P2']
+docks = ['D1', 'D2']
+storage_locations = ['S1', 'S2']
+fvp = {
+    ('I1', 'P1'): 20, ('I1', 'P2'): 35,
+    ('I2', 'P1'): 20, ('I2', 'P2'): 15,
+    ('O1', 'P1'): 5, ('O1', 'P2'): 10,
+    ('O2', 'P1'): 15, ('O2', 'P2'): 20
+}
+PUp = {'P1': 100, 'P2': 100}
+PLp = {'P1': 100, 'P2': 100}
+Qsk = {('S1', 'D1'): 50, ('S1', 'D2'): 50, ('S2', 'D1'): 50, ('S2', 'D2'): 50}
+Wkk_prime = {('D1', 'D2'): 0, ('D2', 'D1'): 0}
+```
+
+TS = 1
+TE = 2
+M = 1000000
+lj = 5
+
+
+
 
 ### 3. Ant Colony Optimization (ACO) for Supply Chain Optimization:
 Using the provided datasets, the ACO algorithm optimizes supply chain routes, supplier selection, and inventory management.
