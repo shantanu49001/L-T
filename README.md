@@ -33,6 +33,19 @@ Leveraging OpenCV, the algorithm enhances uploaded images and compares features 
 #### B3. User Feedback:
 Users receive quality percentage feedback, empowering them to make informed procurement decisions based on quality standards.
 
+### B4. Results:
+<p align="center">
+  <img src="https://github.com/shantanu49001/L-T/blob/main/Screenshot%20(54).png" alt="L&T CreaTech Logo">
+  <br/>
+  <img src="https://github.com/shantanu49001/L-T/blob/main/Screenshot%20(55).png" alt="L&T CreaTech Logo">
+  <br/>
+  <img src="https://github.com/shantanu49001/L-T/blob/main/Screenshot%20(56).png" alt="L&T CreaTech Logo">
+  <br/>
+  <img src="https://github.com/shantanu49001/L-T/blob/main/Screenshot%20(57).png" alt="L&T CreaTech Logo">
+  <br/>
+</p>
+
+
 ### 2. Warehouse Transportation Problem:
 This model solves a warehouse transportation problem using optimization techniques.
 
