@@ -35,11 +35,11 @@ Users receive quality percentage feedback, empowering them to make informed proc
 
 ### B4. Results:
 <p align="center">
-  <img src="https://github.com/shantanu49001/L-T/blob/main/Screenshot%20(54).png" alt="L&T CreaTech Logo">
+  <img src="https://github.com/shantanu49001/L-T/blob/main/Platform-1.png" alt="L&T CreaTech Logo">
   <br/>
-  <img src="https://github.com/shantanu49001/L-T/blob/main/Screenshot%20(55).png" alt="L&T CreaTech Logo">
+  <img src="https://github.com/shantanu49001/L-T/blob/main/Platform-2.png" alt="L&T CreaTech Logo">
   <br/>
-  <img src="https://github.com/shantanu49001/L-T/blob/main/Screenshot%20(56).png" alt="L&T CreaTech Logo">
+  <img src="https://github.com/shantanu49001/L-T/blob/main/Platform-3.png" alt="L&T CreaTech Logo">
   <br/>
   <img src="https://github.com/shantanu49001/L-T/blob/main/Screenshot%20(57).png" alt="L&T CreaTech Logo">
   <br/>
