@@ -1,5 +1,7 @@
 # L&T CreaTech Project - Peaky Balwinders
 
+![L&T CreaTech Logo](https://github.com/shantanu49001/L-T/blob/main/logo.png)
+
 ## Team Members:
 1. Shantanu Tiwari - ECE, 3rd Year
 2. Pritesh Lohot - CSE, 3rd Year
