@@ -126,6 +126,13 @@ Upon order placement, the web application collects parameters such as seller nam
   - If all details match, the token is marked as inactive and expires using the built-in features of JWTs.
   - Expired tokens are saved in the customer database model as a reference for order history and future analytical data.
 
+<p align="center">
+  <img src="https://github.com/shantanu49001/L-T/blob/main/jwt.png" alt="L&T CreaTech Logo">
+    <img src="https://github.com/shantanu49001/L-T/blob/main/jwt2.png" alt="L&T CreaTech Logo">
+  <img src="https://github.com/shantanu49001/L-T/blob/main/1.png" alt="L&T CreaTech Logo">
+
+</p>
+
 ## Implementation Details
 
 ### 1. Generation of Consignment Token
