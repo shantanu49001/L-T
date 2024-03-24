@@ -103,7 +103,7 @@ We can use the provided dataset as input for the ACO algorithm. The algorithm wi
 
 We can visualize the solution obtained from the ACO algorithm using various plotting libraries in Python. Below is an example GIF showing the convergence of the ACO algorithm and the final routes obtained for the vehicles.
 
-![ACO Algorithm Convergence](path/to/aco_convergence.gif)
+(![ACO Algorithm Convergence](path/to/aco_convergence.gif))
 
 ## Conclusion:
 These solutions leverage AI-driven approaches and optimization techniques to streamline material sourcing, warehouse transportation, and supply chain management, ultimately enhancing efficiency and cost-effectiveness in construction projects.
